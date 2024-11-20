@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        GP2040_BOARDCONFIG: [VID-PRO-PTZ]
+        GP2040_BOARDCONFIG: [Blank, Pico, PicoW, VID-PRO-PTZ]
 
     steps:
     #Global Setup
